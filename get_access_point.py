@@ -37,8 +37,6 @@ def get_location():
     dump_json(location)
     return response, last_known_place, last_known_time
 
-if __name__ == "__main__":
-    get_location()
 
 #print(type(bssid_lib))
 #print(bssid_lib)

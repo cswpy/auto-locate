@@ -7,12 +7,6 @@
                     "last_visit": "2020-02-04 01:58:13.627097"
                 }
             ],
-            "f8:0b:cb:2c:06:4f": [
-                {
-                    "location": "Unknown",
-                    "last_visit": null
-                }
-            ],
             "5c:83:8f:3c:90:1f": [
                 {
                     "location": "Dorm",
@@ -40,13 +34,7 @@
             "5c:83:8f:34:f4:8f": [
                 {
                     "location": "Baraha",
-                    "last_visit": "2020-02-04 15:25:17.696643"
-                }
-            ],
-            "5c:83:8f:3f:80:7f": [
-                {
-                    "location": null,
-                    "last_visit": "2020-02-04 15:11:02.862814"
+                    "last_visit": "2020-02-04 18:13:16.740832"
                 }
             ]
         }
