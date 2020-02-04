@@ -1,4 +1,4 @@
-import get_location
+from get_location import *
 from flask import Flask, request
 from pymessenger.bot import Bot
 
@@ -11,8 +11,10 @@ bot = Bot(ACCESS_TOKEN)
 @app.route('/',methods=['GET','POST'])
 def request_recv():
     if request.method == 'GET':
-        token_recv = request.args.get('hub.verify_token')
+        token_recv = request.args.get('hub.verify_token','')
+        print(token_recv)
         msg_sent = verify_token(token_recv)
+        print(msg_sent)
         return msg_sent
     
     else:
@@ -22,18 +24,17 @@ def request_recv():
             for message in messaging:
                 if message.get('message'):
                     recipient_id = message['sender']['id']
-                    if message['message']['text'] == 'location':
-                        location = get_location()
-                        send_message(recipient_id,location)
-                    else:
-                        send_message(recipient_id,'Phill is unavailable right now, he will check your message as soon as possible.')
-                        return "Message Processed"
+                    # if message['message'].get('text') == 'location':
+                    #     location = get_location()
+                    #     send_message(recipient_id,location)
+                    # else:
+                    send_message(recipient_id,'Phill is unavailable right now, he will check your message as soon as possible.')
+        return "Message Processed"
 
 def verify_token(token_recv):
     if token_recv==VERIFY_TOKEN:
-        return request.args.get('hub.challenge')
-    else:
-        return 'Invalid Verification Token'
+        return request.args.get('hub.challenge','')
+    return 'Invalid Verification Token'
 
 def send_message(id,text):
     bot.send_text_message(id,text)

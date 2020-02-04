@@ -1,0 +1,54 @@
+{
+    "location": [
+        {
+            "5c:83:8f:57:91:3f": [
+                {
+                    "location": "Library",
+                    "last_visit": "2020-02-04 01:58:13.627097"
+                }
+            ],
+            "f8:0b:cb:2c:06:4f": [
+                {
+                    "location": "Unknown",
+                    "last_visit": null
+                }
+            ],
+            "5c:83:8f:3c:90:1f": [
+                {
+                    "location": "Dorm",
+                    "last_visit": "2020-02-04 02:09:46.851661"
+                }
+            ],
+            "5c:83:8f:82:51:af": [
+                {
+                    "location": "Marketplace",
+                    "last_visit": "2020-02-04 02:02:53.734205"
+                }
+            ],
+            "88:90:8d:92:f9:f8": [
+                {
+                    "location": "Dorm-using LAN port",
+                    "last_visit": "2020-02-04 02:36:09.400410"
+                }
+            ],
+            "5c:83:8f:35:44:7f": [
+                {
+                    "location": "Library",
+                    "last_visit": "2020-02-04 11:54:10.512456"
+                }
+            ],
+            "5c:83:8f:34:f4:8f": [
+                {
+                    "location": "Baraha",
+                    "last_visit": "2020-02-04 14:01:20.846003"
+                }
+            ],
+            "5c:83:8f:3f:80:7f": [
+                {
+                    "location": null,
+                    "last_visit": "2020-02-04 15:11:02.862814"
+                }
+            ]
+        }
+    ]
+}
