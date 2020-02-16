@@ -1,4 +1,4 @@
-import get_access_point
+#import get_access_point
 from flask import Flask
 
 app = Flask(__name__)

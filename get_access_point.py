@@ -9,7 +9,7 @@ def get_location():
     datetime_now = datetime.datetime.now()
     default_arg = [{'location': None, 'last_visit': datetime_now}]
 
-    location= load_json() #location is a dictionary
+    location = json.loads("location.json") #location is a dictionary
     bssid_lib = location['location'][0]  #bssid_lib is a dict containing dictionaries that has bssid as keys and details as values
     bssid_now = get_bssid(scanner)
     parameter = bssid_lib.setdefault(bssid_now, default_arg)[0]
