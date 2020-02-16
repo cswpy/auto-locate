@@ -36,6 +36,31 @@
                     "location": "Baraha",
                     "last_visit": "2020-02-04 18:13:16.740832"
                 }
+            ],
+            "5c:83:8f:6d:ba:df": [
+                {
+                    "location": "Social Science Building",
+                    "last_visit": "2020-02-05 10:29:22.349192"
+                }
+            ],
+            "5c:83:8f:26:9c:09": [
+                {
+                    "location": "Campus Center 2f",
+                    "last_visit": "2020-02-09 17:16:38.111734"
+                }
+            ],
+            "5c:83:8f:3c:5a:bf": [
+                {
+                    "location": "Computational Building",
+                    "last_visit": "2020-02-10 08:56:01.139799"
+                }
+            ],
+,
+            "5c:83:8f:57:76:8f": [
+                {
+                    "location": "Campus Center Ground Floor",
+                    "last_visit": "2020-02-16 18:49:32.734214"
+                }
             ]
         }
     ]
